@@ -19,6 +19,7 @@ sudo apt-get install -y aria2
 sudo apt-get install -y tar wget
 ##BELOW IS ORIGINAL
 cd /tmp # Where to download cccahe
-https://sourceforge.net/projects/aktesting/files/ccache/ccache.tar.gz/download
+wget https://sourceforge.net/projects/aktesting/files/ccache/ccache.tar.gz/download ccache.tar.gz
 time tar xf ccache.tar.gz  # Extract ccache so ci can use it
-rm -rf ccache.tar.gz # Remove unnecessary downloaded file, it will speed up the upload ccache process
+ls
+#rm -rf ccache.tar.gz # Remove unnecessary downloaded file, it will speed up the upload ccache process
