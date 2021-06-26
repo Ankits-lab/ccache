@@ -2,9 +2,6 @@
 # Lets see machine specifications and environments
 df -h
 free -h
-cat /etc/os*
-env
-
 #url=https://www.keneankit990.workers.dev/ccache/ci2/ccache.tar.gz # Where cccahe is located, use your ones, from where you want to download ccache!
 ## my creativity 
  apt-get update \
