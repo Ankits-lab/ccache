@@ -2,7 +2,6 @@
 # Lets see machine specifications and environments
 df -h
 free -h
-nproc
 cat /etc/os*
 env
 
